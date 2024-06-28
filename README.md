@@ -1,4 +1,7 @@
-Does mermaid graph work!?
+Graph shows the program flow and how it handles the incoming messages(orders).
+This part of the system is on the RaspberryPI, it receives messages from stationary PC thru a TCP connection.
+Program handles incoming orders with 1-4 cubes  in color's of red,green.blue and yellow.
+When the cubes comes into the cameras view and the cube is in the order at position at will trigger and the robot will pick up the cube and put it dedicated spot.
 
 ``` mermaid
 graph TD
